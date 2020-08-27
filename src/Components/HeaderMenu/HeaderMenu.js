@@ -12,7 +12,6 @@ const HeaderMenu = () => {
     return (
         <div className="header__menu">
             <div className="header__menuItem">
-                <FontAwesomeIcon icon={['fas', 'apple']} />
                 <FontAwesomeIcon icon={faSearch} />
             </div>
             <div className="header__menuItem">
