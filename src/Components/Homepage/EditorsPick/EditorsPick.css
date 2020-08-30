@@ -1,0 +1,14 @@
+.editorsPick__container {
+    margin: 20px 0px;
+}
+
+.editors_pick_line {
+    height: 1px;
+    background-color: rgba(0, 0, 0, .15);
+    border: none;
+}
+
+.editorsaick_btn{
+    color: #03a87c;
+    text-decoration:none;
+}
