@@ -1,44 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
-.actionCard__compact {
+* {
     margin: 0;
-    padding: 0;
+}
+
+.actionCard__body {
+    padding: 0px 5px;
+    margin: 5px;
+    max-width: 280px;
+    max-height: 100px;
+}
+
+.actionCard__container {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 120px;
+}
+
+.articalCard__header {
+    color: #2C394A;
+    margin: 0;
 }
 
 .actionCard__huge {
     height: 100% !important;
+    margin: 0 auto;
+    max-width: 345px;
 }
 
-.articalCard__header {
-    font-size: 22px;
+.actionCard__compact {
+    margin-bottom: 20px;
 }
 
 .articalCard__header--huge {
-    color: #2C394A;
+    font-size: 22px;
+    margin: 21px 0px;
 }
 
-.articalCard__content, .articalCard__caption {
-    color: rgba(0, 0, 0, .54);
-    font-family: 'PT Serif', serif;
+.articalCard__header--popular {
     font-size: 15px;
+}
+
+.articalCard__header--compact {
+    font-size: 15px;
+    letter-spacing: 0.5px;
 }
 
 .actionCard__media--huge {
     height: 150px;
 }
 
+.articalCardPopular {
+    margin-bottom: 25px;
+}
+
+.articalCardPopular__body {
+    padding: 0px 10px;
+}
+
+.articalCard__content, .articalCard__caption {
+    color: rgba(0, 0, 0, .54);
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+}
+
 .articalCard__username {
     font-size: 15px;
-    font-weight: 500;
-}
-
-.actionCard__huge {
-    margin: 0 auto;
-    max-width: 345px;
-}
-
-.actionCard__compact {
-    max-height: 200px;
-    margin-bottom: 20px;
+    font-weight: 500 !important;
 }
 
 .actionCard__media--compact {
@@ -51,18 +78,22 @@
     object-fit: cover;
 }
 
-.articalCard__header--compact, .articalCard__username--compact, .articalCard__caption--compact {
-    font-size: 15px;
-    padding: 0px 5px;
-    margin: 5px;
+.articalCard__content--huge, .articalCard__username--huge {
+    margin-bottom: 20px;
 }
 
-.actionCard__body {
-    max-width: 280px;
+.articalCard__username--compact, .articalCard__caption--compact, .articalCard__header--compact {
+    margin-bottom: 8px;
 }
 
-.actionCard__container {
-    display: flex !important;
-    flex-direction: row !important;
-    height: 130px;
+.articalCard__username--popular, .articalCard__caption--popular, .articalCard__header--popular {
+    margin-bottom: 4px;
+}
+
+.articalCardPopular__index {
+    text-align: right;
+    font-size: 25px;
+    padding-right: 10px;
+    font-weight: bolder;
+    color: rgba(3, 168, 124,0.8);
 }

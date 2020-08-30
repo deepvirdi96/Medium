@@ -9,7 +9,7 @@ import './ArticalCard.css';
 export default function ArticleCardHuge() {
     return (
         <div>
-            <Card className="actionCard actionCard__huge">
+            <Card className="actionCard actionCard__huge" elevation={0}>
                 <CardActionArea>
                     <CardMedia
                         className="actionCard__media--huge"
@@ -20,11 +20,11 @@ export default function ArticleCardHuge() {
                         <h3 className="articalCard__header articalCard__header--huge">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </h3>
-                        <p className="articalCard__content">
+                        <p className="articalCard__content articalCard__content--huge">
                             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                             across all continents except Antarctica
                         </p>
-                        <p className="articalCard__username">Username</p>
+                        <p className="articalCard__username articalCard__username--huge">Username</p>
                         <span className="articalCard__caption">
                             Nov 10, 2018 - 8 min read *
                         </span>
