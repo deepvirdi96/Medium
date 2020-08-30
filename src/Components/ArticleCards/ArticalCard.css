@@ -10,10 +10,19 @@
     max-height: 100px;
 }
 
+.actionCard__body--wide {
+    padding: 0px 5px;
+    margin: 5px;
+    max-height: 120px;
+}
+
 .actionCard__container {
     display: flex !important;
     flex-direction: row !important;
     height: 120px;
+}
+.actionCard__container--wide {
+    height: 150px;
 }
 
 .articalCard__header {
@@ -31,8 +40,13 @@
     margin-bottom: 20px;
 }
 
+.actionCard__wide {
+    margin-bottom: 30px;
+}
+
 .articalCard__header--huge {
     font-size: 22px;
+    font-weight: 600;
     margin: 21px 0px;
 }
 
@@ -41,8 +55,31 @@
 }
 
 .articalCard__header--compact {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 600;
     letter-spacing: 0.5px;
+}
+
+.actionCard__media--compact {
+    width: 150px;
+}
+
+.actionCard__media--compact img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.actionCard__media--wide {
+    
+    width: 200px;
+    height: 200px;
+}
+
+.actionCard__media--wide img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
 }
 
 .actionCard__media--huge {
@@ -68,16 +105,6 @@
     font-weight: 500 !important;
 }
 
-.actionCard__media--compact {
-    width: 150px;
-}
-
-.actionCard__media--compact img {
-    width: 100%;
-    height: 130px;
-    object-fit: cover;
-}
-
 .articalCard__content--huge, .articalCard__username--huge {
     margin-bottom: 20px;
 }
@@ -95,5 +122,39 @@
     font-size: 25px;
     padding-right: 10px;
     font-weight: bolder;
-    color: rgba(3, 168, 124,0.8);
+    color: rgba(3, 168, 124, 0.8);
+}
+
+.latestArtical__image {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+.articalCard__description {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, .54);
+
+}
+
+.articalCard__username--wide {
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.articalCard__caption--wide {
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.articalCard__header--wide {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.popularArticals{
+    position: sticky;
+    top: 0;
 }

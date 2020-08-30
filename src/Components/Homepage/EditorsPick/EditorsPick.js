@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid';
-import { Paper } from '@material-ui/core';
 import ArticleCardHuge from '../../ArticleCards/ArticleCardHuge';
 import ArticleCardCompact from '../../ArticleCards/ArticleCardCompact';
 import './EditorsPick.css';

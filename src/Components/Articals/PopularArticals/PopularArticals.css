@@ -1,0 +1,12 @@
+.popularArticals__header{
+    font-weight: 500;
+    font-size: 22px;
+}
+.popularArticalsSeperator {
+    height: 1px;
+    width:90%;
+    background-color: rgba(0, 0, 0, .15);
+    border: none;
+    margin: 20px 0px !important;
+    margin-top:10px !important;     
+}
